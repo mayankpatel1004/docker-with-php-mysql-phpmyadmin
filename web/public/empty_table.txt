@@ -1,0 +1,24 @@
+Truncate All Order Transaction Tables : 
+=================================================
+TRUNCATE `ec_cart`;
+TRUNCATE `ec_cart_product`;
+TRUNCATE `ec_cashback_credit_transaction`;
+TRUNCATE `ec_cashback_transaction`;
+TRUNCATE `ec_coupon`;
+TRUNCATE `ec_order`;
+TRUNCATE `ec_order_payment_details`;
+TRUNCATE `ec_order_products`;
+TRUNCATE `ec_order_status`;
+TRUNCATE `ec_wishlist`;
+
+
+Truncate All Products Tables : 
+=================================================
+TRUNCATE `ec_products`;
+TRUNCATE `ec_product_price`;
+TRUNCATE `ec_product_reviews`;
+TRUNCATE `ec_product_specifications`;
+TRUNCATE `ec_wishlist`;
+
+
+SELECT product_price_id,product_quantity FROM `ec_product_price` WHERE `product_price_id` IN (54,56) ORDER BY `item_id` ASC

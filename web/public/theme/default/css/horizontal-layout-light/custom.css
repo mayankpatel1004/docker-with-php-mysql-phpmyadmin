@@ -1,0 +1,35 @@
+nav .pagination {float:right;}
+nav .pagination li a{cursor: pointer;}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar .nav-user-icon {
+      display: none;
+    }
+    .footer-social-networking {
+      margin:15px auto auto auto;
+      width:100%;
+      text-align:center !important;
+    }
+  }
+
+  .product-price-css {
+    position: relative;
+    top:15px;
+  }
+
+  .product-price-border-top {
+    border-top:1px solid #EAEAEA;
+  }
+
+  .existing-attribues .form-control {
+    padding: 0px 0px 0px 4px !important;
+  }
+
+  .existing-attribues .col-md-1 {
+    padding: 0px 5px 0px 5px !important;
+  }
+
+  .existing-attribues .col-md-2 {
+    padding: 0px 5px 0px p5x !important;
+  }

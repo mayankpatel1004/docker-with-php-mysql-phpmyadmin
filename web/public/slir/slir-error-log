@@ -1,0 +1,362 @@
+
+[Fri Dec 14 23:49:55 2018] Garbage collection started
+[Fri Dec 14 23:49:58 2018] Garbage collection completed
+[Fri Dec 14 23:49:58 2018] Garbage collection started
+[Fri Dec 14 23:50:00 2018] Garbage collection completed
+[Wed Dec 26 03:38:50 2018] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36] Image does not exist: D:\wamp64\www/items/upload/items/1541985866_1_hero-3.png
+
+REFERRER: 
+
+REQUEST: localhost/cloudswiftcart/slir/w100h50-c100x50/items/upload/items/1541985866_1_hero-3.png
+
+#0 D:\wamp64\www\cloudswiftcart\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('items/upload/it...')
+#1 D:\wamp64\www\cloudswiftcart\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'items/upload/it...')
+#2 D:\wamp64\www\cloudswiftcart\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\cloudswiftcart\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\cloudswiftcart\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\cloudswiftcart\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Wed Dec 26 03:38:58 2018] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36] Image does not exist: D:\wamp64\www/upload/items/1541985866_1_hero-3.png
+
+REFERRER: 
+
+REQUEST: localhost/cloudswiftcart/slir/w100h50-c100x50/upload/items/1541985866_1_hero-3.png
+
+#0 D:\wamp64\www\cloudswiftcart\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('upload/items/15...')
+#1 D:\wamp64\www\cloudswiftcart\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'upload/items/15...')
+#2 D:\wamp64\www\cloudswiftcart\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\cloudswiftcart\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\cloudswiftcart\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\cloudswiftcart\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Sun Apr 07 06:01:39 2019] Garbage collection started
+[Sun Apr 07 06:01:41 2019] Garbage collection completed
+[Sun May 12 08:55:23 2019] Garbage collection started
+[Sun May 12 08:55:25 2019] Garbage collection completed
+[Mon May 13 12:55:33 2019] Garbage collection started
+[Mon May 13 12:55:35 2019] Garbage collection completed
+[Thu May 30 17:34:08 2019] Garbage collection started
+[Thu May 30 17:34:10 2019] Garbage collection completed
+[Fri Jun 14 02:14:20 2019] Garbage collection started
+[Fri Jun 14 02:14:22 2019] Garbage collection completed
+[Wed Jun 26 08:35:10 2019] Garbage collection started
+[Wed Jun 26 08:35:12 2019] Garbage collection completed
+[Wed Jun 26 10:20:32 2019] Garbage collection started
+[Wed Jun 26 10:20:35 2019] Garbage collection completed
+[Wed Jun 26 10:26:47 2019] Garbage collection started
+[Wed Jun 26 10:26:49 2019] Garbage collection completed
+[Wed Jun 26 10:29:12 2019] Garbage collection started
+[Wed Jun 26 10:29:14 2019] Garbage collection completed
+[Sun Jul 14 04:36:23 2019] Garbage collection started
+[Sun Jul 14 04:36:25 2019] Garbage collection completed
+[Mon Oct 14 11:30:15 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/366_1_1570796646_header_banner_1534640872_.jpg
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/366_1_1570796646_header_banner_1534640872_.jpg
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:15 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/365_1_1570796612_laravel_new.png
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/365_1_1570796612_laravel_new.png
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:15 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/364_1_1570796063_0_dHQl_huS1S96dTwF.jpeg
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/364_1_1570796063_0_dHQl_huS1S96dTwF.jpeg
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:15 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/363_1_1570796036_branding-ecommerce-sales-website-marketing-flat-design-banner-illustration-showing-online-concept-e-business-to-purchase-103949402.jpg
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/363_1_1570796036_branding-ecommerce-sales-website-marketing-flat-design-banner-illustration-showing-online-concept-e-business-to-purchase-103949402.jpg
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:34 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/11_i_a_1_1548388750_1.png
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com//slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/11_i_a_1_1548388750_1.png
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:34 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/363_1_1570796036_branding-ecommerce-sales-website-marketing-flat-design-banner-illustration-showing-online-concept-e-business-to-purchase-103949402.jpg
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com//slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/363_1_1570796036_branding-ecommerce-sales-website-marketing-flat-design-banner-illustration-showing-online-concept-e-business-to-purchase-103949402.jpg
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:34 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/364_1_1570796063_0_dHQl_huS1S96dTwF.jpeg
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com//slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/364_1_1570796063_0_dHQl_huS1S96dTwF.jpeg
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:34 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/365_1_1570796612_laravel_new.png
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com//slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/365_1_1570796612_laravel_new.png
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:34 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/366_1_1570796646_header_banner_1534640872_.jpg
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com//slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/366_1_1570796646_header_banner_1534640872_.jpg
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:48 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/363_1_1570796036_branding-ecommerce-sales-website-marketing-flat-design-banner-illustration-showing-online-concept-e-business-to-purchase-103949402.jpg
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/363_1_1570796036_branding-ecommerce-sales-website-marketing-flat-design-banner-illustration-showing-online-concept-e-business-to-purchase-103949402.jpg
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:48 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/11_i_a_1_1548388750_1.png
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/11_i_a_1_1548388750_1.png
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:48 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/365_1_1570796612_laravel_new.png
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/365_1_1570796612_laravel_new.png
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:48 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/366_1_1570796646_header_banner_1534640872_.jpg
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/366_1_1570796646_header_banner_1534640872_.jpg
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:30:48 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/364_1_1570796063_0_dHQl_huS1S96dTwF.jpeg
+
+REFERRER: http://localhost/jks_jaykrishnasoftware_com/
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/364_1_1570796063_0_dHQl_huS1S96dTwF.jpeg
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Mon Oct 14 11:32:06 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/jks_jaykrishnasoftware_comuploads/items/11_i_a_1_1548388750_1.png
+
+REFERRER: 
+
+REQUEST: localhost/jks_jaykrishnasoftware_com/slir/w1300h850-c1300x850/jks_jaykrishnasoftware_comuploads/items/11_i_a_1_1548388750_1.png
+
+#0 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('jks_jaykrishnas...')
+#1 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'jks_jaykrishnas...')
+#2 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\jks_jaykrishnasoftware_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Fri Oct 18 04:12:05 2019] Garbage collection started
+[Fri Oct 18 04:12:07 2019] Garbage collection completed
+[Fri Oct 18 12:01:21 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/cloudswiftsolutions_comuploads/items/364_1_1570796063_0_dHQl_huS1S96dTwF.jpeg
+
+REFERRER: http://localhost/cloudswiftsolutions_com/
+
+REQUEST: localhost/cloudswiftsolutions_com/slir/w1349h550-c1349x550/cloudswiftsolutions_comuploads/items/364_1_1570796063_0_dHQl_huS1S96dTwF.jpeg
+
+#0 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('cloudswiftsolut...')
+#1 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'cloudswiftsolut...')
+#2 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\cloudswiftsolutions_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Fri Oct 18 12:01:21 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/cloudswiftsolutions_comuploads/items/363_1_1570796036_branding-ecommerce-sales-website-marketing-flat-design-banner-illustration-showing-online-concept-e-business-to-purchase-103949402.jpg
+
+REFERRER: http://localhost/cloudswiftsolutions_com/
+
+REQUEST: localhost/cloudswiftsolutions_com/slir/w1349h550-c1349x550/cloudswiftsolutions_comuploads/items/363_1_1570796036_branding-ecommerce-sales-website-marketing-flat-design-banner-illustration-showing-online-concept-e-business-to-purchase-103949402.jpg
+
+#0 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('cloudswiftsolut...')
+#1 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'cloudswiftsolut...')
+#2 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\cloudswiftsolutions_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Fri Oct 18 12:01:21 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/cloudswiftsolutions_comuploads/items/366_1_1570796646_header_banner_1534640872_.jpg
+
+REFERRER: http://localhost/cloudswiftsolutions_com/
+
+REQUEST: localhost/cloudswiftsolutions_com/slir/w1349h550-c1349x550/cloudswiftsolutions_comuploads/items/366_1_1570796646_header_banner_1534640872_.jpg
+
+#0 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('cloudswiftsolut...')
+#1 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'cloudswiftsolut...')
+#2 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\cloudswiftsolutions_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Fri Oct 18 12:01:21 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/cloudswiftsolutions_comuploads/items/angular.png
+
+REFERRER: http://localhost/cloudswiftsolutions_com/
+
+REQUEST: localhost/cloudswiftsolutions_com/slir/w1349h550-c1349x550/cloudswiftsolutions_comuploads/items/angular.png
+
+#0 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('cloudswiftsolut...')
+#1 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'cloudswiftsolut...')
+#2 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\cloudswiftsolutions_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Fri Oct 18 12:01:21 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/cloudswiftsolutions_comuploads/items/365_1_1570796612_laravel_new.png
+
+REFERRER: http://localhost/cloudswiftsolutions_com/
+
+REQUEST: localhost/cloudswiftsolutions_com/slir/w1349h550-c1349x550/cloudswiftsolutions_comuploads/items/365_1_1570796612_laravel_new.png
+
+#0 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('cloudswiftsolut...')
+#1 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'cloudswiftsolut...')
+#2 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\cloudswiftsolutions_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Fri Oct 18 12:01:21 2019] [::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36] Image does not exist: D:\wamp64\www/cloudswiftsolutions_comuploads/items/reactnative.jpg
+
+REFERRER: http://localhost/cloudswiftsolutions_com/
+
+REQUEST: localhost/cloudswiftsolutions_com/slir/w1349h550-c1349x550/cloudswiftsolutions_comuploads/items/reactnative.jpg
+
+#0 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(170): SLIRRequest->setPath('cloudswiftsolut...')
+#1 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slirrequest.class.php(126): SLIRRequest->__set('i', 'cloudswiftsolut...')
+#2 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(286): SLIRRequest->initialize()
+#3 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(444): SLIR->getRequest()
+#4 D:\wamp64\www\cloudswiftsolutions_com\slir\core\slir.class.php(257): SLIR->shouldUseRequestCache()
+#5 D:\wamp64\www\cloudswiftsolutions_com\slir\index.php(30): SLIR->processRequestFromURL()
+#6 {main}
+[Thu Nov 07 07:07:37 2019] Garbage collection started
+[Thu Nov 07 07:07:39 2019] Garbage collection completed
+[Sat Nov 23 05:19:44 2019] Garbage collection started
+[Sat Nov 23 05:19:46 2019] Garbage collection completed
+[Fri Nov 29 16:55:26 2019] Garbage collection started
+[Fri Nov 29 16:55:28 2019] Garbage collection completed
+[Sat Dec 14 09:39:58 2019] Garbage collection started
+[Sat Dec 14 09:40:00 2019] Garbage collection completed
+[Thu Mar 26 09:59:10 2020] [::1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36] Directory (/var/www/html/cloudswiftsolutions_com/slir/cache) does not exist and was unable to be created. Please create the directory.
+
+REFERRER: http://localhost/cloudswiftsolutions_com/products
+
+REQUEST: localhost/cloudswiftsolutions_com/slir/w400h400-c400x400/cloudswiftsolutions_com/uploads/products/product_3_1585216447_180%20x%20120.jpg
+
+#0 /var/www/html/cloudswiftsolutions_com/slir/core/slir.class.php(1271): SLIR->initializeDirectory('/var/www/html/c...')
+#1 /var/www/html/cloudswiftsolutions_com/slir/core/slir.class.php(1138): SLIR->initializeCache()
+#2 /var/www/html/cloudswiftsolutions_com/slir/core/slir.class.php(1102): SLIR->cacheFile('/var/www/html/c...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x01\x00...', true)
+#3 /var/www/html/cloudswiftsolutions_com/slir/core/slir.class.php(1082): SLIR->cacheRendered()
+#4 /var/www/html/cloudswiftsolutions_com/slir/core/slir.class.php(1437): SLIR->cache()
+#5 /var/www/html/cloudswiftsolutions_com/slir/core/slir.class.php(274): SLIR->serveRenderedImage()
+#6 /var/www/html/cloudswiftsolutions_com/slir/index.php(30): SLIR->processRequestFromURL()
+#7 {main}
+[Fri Mar 27 17:38:53 2020] Garbage collection started
+[Fri Mar 27 17:38:55 2020] Garbage collection completed
+[Sat Mar 28 11:45:16 2020] Garbage collection started
+[Sat Mar 28 11:45:18 2020] Garbage collection completed
+[Sat Mar 28 13:30:37 2020] Garbage collection started
+[Sat Mar 28 13:30:39 2020] Garbage collection completed
+[Sat Mar 28 14:04:41 2020] Garbage collection started
+[Sat Mar 28 14:04:43 2020] Garbage collection completed
+[Sun Mar 29 02:39:09 2020] Garbage collection started
+[Sun Mar 29 02:39:11 2020] Garbage collection completed
+[Tue Mar 31 08:41:40 2020] Garbage collection started
+[Tue Mar 31 08:41:42 2020] Garbage collection completed
+[Tue Mar 31 09:19:45 2020] Garbage collection started
+[Tue Mar 31 09:19:47 2020] Garbage collection completed

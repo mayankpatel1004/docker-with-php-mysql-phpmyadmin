@@ -1,0 +1,7 @@
+.htaccess
+log.txt
+/slir/cache/
+theme/default/generated_files/configdata.php
+theme/default/generated_files/sitemapdata.php
+theme/default/generated_files/summary.php
+sitemap.xml

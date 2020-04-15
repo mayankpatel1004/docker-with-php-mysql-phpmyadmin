@@ -1,0 +1,357 @@
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Guest Blogs', 'guestpost', '0', 'blogs', NULL, '<p>One of the main thrust areas in the business relationship is adhering to a flexible business model for web development firm that serves the needs of both the client as well as the web development company. We ideally believe in a systematic approach to pricing and therefore follow only the best strategy and policies. This helps us in being able to recommend only the right business model to the client. There are small projects and big projects.</p>\r\n\r\n<p>There are projects that finish within a month and there are projects with various modules that are spread across several months. All clients and their projects come with their own set of requirements in terms of flexibility in deliverables, releases and finance terms.</p>\r\n\r\n<p>And our main objective at this organization is to deliver value to the customer. We follow standard business models that are prevalent globally and are well accepted and appreciated.</p>\r\n\r\n<p>We follow three different business models as per the difference in scale and scope of projects.</p>\r\n\r\n<p>The business models are for large, medium and small projects. just send in your requirements and we shall analyze your project and let you know the business model that fits your requirements the best. Beyond daily reporting system our team take pride in maintaining the clients trust on our capabilities.</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'customeraccount', 'guestpost', 'NOINDEX, NOFOLLOW', '2019-03-07', NULL, 'Business Strategy | Business Model | Methodology | Our Team work', 'Business canvas,business model canvas,online business models,startup business model,different business models,business ideas,business plan,company business model,business proposal,business model development,company model,different business models with example', 'N', '270', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 13:55:41', '2019-03-07 13:55:41');
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'All Contacts', 'allcontacts', '0', 'contact', NULL, '<p>Demo</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'allforms', 'contacts', 'INDEX, FOLLOW', '2019-03-07', NULL, 'Business Strategy | Business Model | Methodology | Our Team work', 'Business canvas,business model canvas,online business models,startup business model,different business models,business ideas,business plan,company business model,business proposal,business model development,company model,different business models with example', 'N', '269', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 13:55:41', '2019-03-07 13:55:41');
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'All Contacts', 'allcomments', '0', 'comments', NULL, '<p>Comments</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'allforms', 'comments', 'INDEX, FOLLOW', '2019-03-07', NULL, 'Business Strategy | Business Model | Methodology | Our Team work', 'Business canvas,business model canvas,online business models,startup business model,different business models,business ideas,business plan,company business model,business proposal,business model development,company model,different business models with example', 'N', '269', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 13:55:41', '2019-03-07 13:55:41');
+
+ALTER TABLE `forms` ADD `deleted_by` INT NOT NULL DEFAULT '0' AFTER `deleted_status`, ADD `deleted_by_name` VARCHAR(255) NULL DEFAULT NULL AFTER `deleted_by`, ADD `deleted_time` DATETIME NULL DEFAULT NULL AFTER `deleted_by_name`;
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Contact Us', 'contact', '0', 'pages', NULL, 'Contact Us', NULL, 'N', '1', NULL, NULL, NULL, NULL, 'forms', 'index', 'INDEX/FOLLOW', '2019-03-22', NULL, 'Cloudswift portfolio Vadodara,Web/Mobile work, Vadodara, India | Cloudswift', 'Web design company portfolio Vadodara, Web developer vadodara,Internet-Marketing Portfolio, Software development Portfolio management,PHP, Mysql, Laravel ,Angular, React Native,jQuery,jQuery ui,wordpress,magento,joomla,bitbucket,git,gitlab,github,UI/UX,Rest API,Bootstrap,Material Design', 'Y', '541', 'N', NULL, '3', 'Y', 'N', '0', NULL, NULL, '2019-03-22 10:41:05', '2019-10-14 01:23:42');
+DELETE FROM `items` WHERE `items`.`item_id` = 133
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES
+(583, 'Contact Us', 'contactsuccess', 0, 'pages', NULL, 'Contact Us', NULL, 'N', 1, NULL, NULL, NULL, NULL, 'forms', 'success', 'INDEX/FOLLOW', '2019-03-22', NULL, 'Cloudswift portfolio Vadodara,Web/Mobile work, Vadodara, India | Cloudswift', 'Web design company portfolio Vadodara, Web developer vadodara,Internet-Marketing Portfolio, Software development Portfolio management,PHP, Mysql, Laravel ,Angular, React Native,jQuery,jQuery ui,wordpress,magento,joomla,bitbucket,git,gitlab,github,UI/UX,Rest API,Bootstrap,Material Design', 'Y', 541, 'N', NULL, 3, 'Y', 'N', 0, NULL, NULL, '2019-03-22 05:11:05', '2019-10-13 19:53:42');
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES
+(NULL, 'Clients', 'clients', 0, 'blogs', NULL, '<p>All Sections</p>', NULL, 'N', 1, NULL, NULL, NULL, NULL, 'allsections', 'index', 'INDEX, FOLLOW', '2019-03-22', NULL, 'All Clients', 'All Clients', 'Y', 344, 'Y', NULL, 10, 'Y', 'N', 0, NULL, NULL, '2019-03-22 05:23:36', '2019-03-22 05:23:36');
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Projects', 'projects', '0', 'blogs', NULL, '<p>All Projects</p>', NULL, 'N', '1', NULL, NULL, NULL, NULL, 'allsections', 'index', 'INDEX, FOLLOW', '2019-03-22', NULL, 'All Projects', 'All Projects', 'Y', '344', 'Y', NULL, '10', 'Y', 'N', '0', NULL, NULL, '2019-03-22 10:53:36', '2019-03-22 10:53:36');
+
+ALTER TABLE `item_section` ADD `email_address` VARCHAR(255) NULL DEFAULT NULL AFTER `item_type`, ADD `contact` VARCHAR(255) NULL DEFAULT NULL AFTER `email_address`;
+
+CREATE TABLE IF NOT EXISTS `task` (
+  `task_id` int(11) NOT NULL AUTO_INCREMENT,
+  `project_id` int(11) NOT NULL DEFAULT '0',
+  `client_id` int(11) NOT NULL DEFAULT '0',
+  `task_status` varchar(25) DEFAULT NULL,
+  `task_priority` varchar(25) DEFAULT NULL,
+  `task_name` varchar(1024) DEFAULT NULL,
+  `task_description` text,
+  `assign_to` int(11) NOT NULL DEFAULT '0',
+  `assign_by` int(11) NOT NULL DEFAULT '0',
+  `milestone` varchar(255) DEFAULT NULL,
+  `start_date` date DEFAULT NULL,
+  `end_date` date DEFAULT NULL,
+  `attachment` varchar(255) DEFAULT NULL,
+  `deleted_status` enum('Y','N') NOT NULL DEFAULT 'N',
+  `deleted_by` int(11) NOT NULL DEFAULT '0',
+  `deleted_by_name` varchar(255) DEFAULT NULL,
+  `deleted_time` datetime DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`task_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+COMMIT;
+
+CREATE TABLE IF NOT EXISTS `task_activity` (
+  `task_activity_id` int(11) NOT NULL AUTO_INCREMENT,
+  `task_id` int(11) NOT NULL DEFAULT '0',
+  `task_name` varchar(255) DEFAULT NULL,
+  `task_action` varchar(255) DEFAULT NULL,
+  `created_by` int(11) NOT NULL DEFAULT '0',
+  `created_by_name` varchar(255) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`task_activity_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `task_comments` (
+  `task_comment_id` int(11) NOT NULL AUTO_INCREMENT,
+  `task_id` int(11) NOT NULL DEFAULT '0',
+  `comments` text,
+  `commented_by` int(11) NOT NULL DEFAULT '0',
+  `commented_by_name` int(11) DEFAULT NULL,
+  `deleted_status` enum('Y','N') NOT NULL DEFAULT 'N',
+  `deleted_by` int(11) NOT NULL DEFAULT '0',
+  `deleted_by_name` varchar(225) DEFAULT NULL,
+  `deleted_time` datetime DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`task_comment_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'All Tasks', 'alltasks', '0', 'tasks', NULL, '<p>Tasks</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'alltasks', 'index', 'INDEX, FOLLOW', '2019-03-07', NULL, 'Task Management', 'Task Management Description', 'Y', '270', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 13:55:41', '2019-03-07 13:55:41');
+
+ALTER TABLE `task` ADD `item_type` VARCHAR(255) NOT NULL DEFAULT 'projects' AFTER `client_id`;
+
+
+
+
+
+
+ALTER TABLE `task` ADD `estimate_hours` DECIMAL(10,2) NOT NULL DEFAULT '0.0' AFTER `milestone`;
+
+CREATE TABLE IF NOT EXISTS `timecard` (
+  `timecard_id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL DEFAULT '0',
+  `user_name` varchar(255) DEFAULT NULL,
+  `project_id` int(11) NOT NULL DEFAULT '0',
+  `task_id` int(11) NOT NULL DEFAULT '0',
+  `task_name` varchar(255) DEFAULT NULL,
+  `task_comment` text,
+  `hours` decimal(10,2) DEFAULT '0.00',
+  `timecard_date` date DEFAULT NULL,
+  `deleted_status` enum('Y','N') NOT NULL DEFAULT 'N',
+  `deleted_by` int(11) NOT NULL DEFAULT '0',
+  `deleted_by_name` varchar(255) DEFAULT NULL,
+  `deleted_time` datetime DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`timecard_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+COMMIT;
+
+
+
+
+
+
+20191108 : 
+---------------------------------
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'All Timecard', 'alltimecard', '0', 'timecard', NULL, '<p>timecard</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'alltimecard', 'index', 'INDEX, FOLLOW', '2019-03-07', NULL, 'Timecard Management', 'Timecard Management Description', 'Y', '270', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 19:25:41', '2019-03-07 19:25:41');
+
+
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Report Item', 'reportitem', '0', 'reportitem', NULL, '<p>timecard</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'report', 'reportitem', 'INDEX, FOLLOW', '2019-03-07', NULL, 'Timecard Management', 'Timecard Management Description', 'Y', '270', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 19:25:41', '2019-03-07 19:25:41');
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Report Activities', 'reportactivities', '0', 'reportactivities', NULL, '<p>reportactivities</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'report', 'reportactivities', 'INDEX, FOLLOW', '2019-03-07', NULL, 'Timecard Management', 'Timecard Management Description', 'Y', '270', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 19:25:41', '2019-03-07 19:25:41');
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Report Timecard', 'reporttimecard', '0', 'reporttimecard', NULL, '<p>reporttimecard</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'report', 'reporttimecard', 'INDEX, FOLLOW', '2019-03-07', NULL, 'Timecard Management', 'Timecard Management Description', 'Y', '270', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 19:25:41', '2019-03-07 19:25:41');
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Report Visitors', 'reportvisitors', '0', 'reportvisitors', NULL, '<p>reportvisitors</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'report', 'reportvisitors', 'INDEX, FOLLOW', '2019-03-07', NULL, 'Timecard Management', 'Timecard Management Description', 'Y', '270', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 19:25:41', '2019-03-07 19:25:41');
+
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Report Tasks', 'reporttasks', '0', 'reporttasks', NULL, '<p>reporttasks</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'report', 'reporttasks', 'INDEX,FOLLOW', '2019-03-07', NULL, 'Teporttasks Management', 'Reporttasks Management Description', 'Y', '270', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 19:25:41', '2019-03-07 19:25:41');
+
+
+
+
+2019/11/14 : 
+---------------------------------
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Login Logs', 'allloginlogs', '0', 'allloginlogs', NULL, '<p>Activities</p>', NULL, 'N', '1', NULL, NULL, NULL, NULL, 'allloginlogs', 'index', 'NOINDEX,NOFOLLOW', '2019-03-22', NULL, 'Activities', 'Activities', 'N', '342', 'Y', NULL, '10', 'Y', 'N', '0', NULL, NULL, '2019-03-22 10:53:36', '2019-03-22 10:53:36');
+
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Visitors', 'allvisitors', '0', 'allvisitors', NULL, '<p>allvisitors</p>', NULL, 'N', '1', NULL, NULL, NULL, NULL, 'allvisitors', 'index', 'NOINDEX,NOFOLLOW', '2019-03-22', NULL, 'Activities', 'Activities', 'N', '342', 'Y', NULL, '10', 'Y', 'N', '0', NULL, NULL, '2019-03-22 10:53:36', '2019-03-22 10:53:36');
+
+
+2019/11/15
+------------------------------------
+CREATE TABLE IF NOT EXISTS `summary` (
+  `summary_id` int(11) NOT NULL AUTO_INCREMENT,
+  `summary_type` varchar(255) DEFAULT NULL,
+  `summary_title` varchar(255) DEFAULT NULL,
+  `summary_value` varchar(255) DEFAULT NULL,
+  `summary_note` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`summary_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+COMMIT;
+ALTER TABLE `task_comments` ADD `task_name` VARCHAR(255) NULL DEFAULT NULL AFTER `task_id`;
+ALTER TABLE `task_comments` CHANGE `commented_by_name` `commented_by_name` VARCHAR(255) NULL DEFAULT NULL;
+
+
+2019/11/16
+------------------------------------------
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'All Leaves', 'allleaves', '0', 'leaves', NULL, '<p>One of the main thrust areas in the business relationship is adhering to a flexible business model for web development firm that serves the needs of both the client as well as the web development company. We ideally believe in a systematic approach to pricing and therefore follow only the best strategy and policies. This helps us in being able to recommend only the right business model to the client. There are small projects and big projects.</p>\r\n\r\n<p>There are projects that finish within a month and there are projects with various modules that are spread across several months. All clients and their projects come with their own set of requirements in terms of flexibility in deliverables, releases and finance terms.</p>\r\n\r\n<p>And our main objective at this organization is to deliver value to the customer. We follow standard business models that are prevalent globally and are well accepted and appreciated.</p>\r\n\r\n<p>We follow three different business models as per the difference in scale and scope of projects.</p>\r\n\r\n<p>The business models are for large, medium and small projects. just send in your requirements and we shall analyze your project and let you know the business model that fits your requirements the best. Beyond daily reporting system our team take pride in maintaining the clients trust on our capabilities.</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'allitems', 'index', 'INDEX,FOLLOW', '2019-03-07', NULL, 'Business Strategy | Business Model | Methodology | Our Team work', 'Business canvas,business model canvas,online business models,startup business model,different business models,business ideas,business plan,company business model,business proposal,business model development,company model,different business models with example', 'N', '353', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 13:55:41', '2019-03-07 13:55:41');
+
+ALTER TABLE `item_section` ADD `item_section_parent_id` INT NOT NULL DEFAULT '0' AFTER `item_section_id`;
+
+
+2019/11/17 
+------------------------------------------
+ALTER TABLE `item_section` ADD `user_id` INT NULL DEFAULT '0' AFTER `attachment2`;
+
+
+2019/11/19
+------------------------------------------
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Report Sections', 'reportsections', '0', 'reportsections', NULL, '<p>reportsections</p>', NULL, 'N', '1', '11_i_a_1_1548388750_1.png', '11_i_a_2_1548388750_2.png', '11_i_a_3_1548388750_cloudswiftcms.png', NULL, 'report', 'reportsections', 'INDEX,FOLLOW', '2019-03-07', NULL, 'Timecard Management', 'Timecard Management Description', 'Y', '270', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-08 00:55:41', '2019-03-08 00:55:41');
+
+
+2019/11/25
+-----------------------------------------
+ALTER TABLE `subscriber` ADD `last_email_sent` DATETIME NULL DEFAULT NULL AFTER `item_type`;
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Send Newsletter', 'allnewsletters', '0', 'allnewsletters', NULL, '<p>Allnewsletters</p>', NULL, 'N', '1', NULL, NULL, NULL, NULL, 'Sendnewsletter', 'index', 'NOINDEX,NOFOLLOW', '2019-03-22', NULL, 'Activities', 'Activities', 'N', '342', 'Y', NULL, '10', 'Y', 'N', '0', NULL, NULL, '2019-03-22 16:23:36', '2019-03-22 16:23:36');
+
+2019/11/26
+------------------------------------------
+ALTER TABLE `users` ADD `fail_attempt` TINYINT NOT NULL DEFAULT '0' AFTER `display_status`;
+
+CREATE TABLE IF NOT EXISTS `schedule` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `month` varchar(5) DEFAULT NULL,
+  `year` varchar(5) DEFAULT NULL,
+  `notified` enum('Y','N') NOT NULL DEFAULT 'Y',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+ALTER TABLE `subscriber` ADD `contact` VARCHAR(20) NULL DEFAULT NULL AFTER `item_type`, ADD `address1` VARCHAR(255) NULL DEFAULT NULL AFTER `contact`, ADD `address2` VARCHAR(255) NULL DEFAULT NULL AFTER `address1`, ADD `city` VARCHAR(100) NULL DEFAULT NULL AFTER `address2`, ADD `state` VARCHAR(50) NULL DEFAULT NULL AFTER `city`, ADD `zipcode` VARCHAR(10) NULL DEFAULT NULL AFTER `state`, ADD `country` VARCHAR(30) NULL DEFAULT NULL AFTER `zipcode`, ADD `cellphone1` VARCHAR(15) NULL DEFAULT NULL AFTER `country`, ADD `cellphone2` VARCHAR(15) NULL DEFAULT NULL AFTER `cellphone1`, ADD `company_name` VARCHAR(255) NULL DEFAULT NULL AFTER `cellphone2`;
+
+
+
+2019/11/28
+--------------------------------------------
+CREATE TABLE IF NOT EXISTS `subscriber_email_logs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `email_to` varchar(255) DEFAULT NULL,
+  `subject` varchar(1024) DEFAULT NULL,
+  `message` text,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+2019/12/02
+------------------------------------
+ALTER TABLE `forms` ADD `contact_number` VARCHAR(50) NULL DEFAULT NULL AFTER `email_address`;
+
+2019/12/15 
+------------------------------------
+ALTER TABLE `items` CHANGE `html_sitemap` `html_sitemap` ENUM('Y','N') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT 'N';
+
+
+2020/01/06
+---------------------------------
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Portfolio Categories', 'portfolio_category', '0', 'portfolio', NULL, '<p>All Portfolio</p>', NULL, 'N', '1', NULL, NULL, NULL, NULL, 'allsections', 'index', 'INDEX,FOLLOW', '2019-03-22', NULL, 'All Sections', 'All Sections', 'Y', '344', 'Y', NULL, '10', 'Y', 'N', '0', NULL, NULL, '2019-03-22 10:53:36', '2019-03-22 10:53:36');
+
+
+2020/01/07
+---------------------------------
+ALTER TABLE `items` ADD `snippets_code` TEXT NULL DEFAULT NULL AFTER `guest_item`, ADD `meta_title_length` INT(100) NULL DEFAULT NULL AFTER `snippets_code`, ADD `meta_description_length` INT(200) NULL DEFAULT NULL AFTER `meta_title_length`;
+
+
+INSERT INTO `site_config` (`config_id`, `config_title`, `config_name`, `config_value`, `input_type`, `size`, `maxlength`, `input_type_title`, `class`, `required`, `display_order`, `comments`, `display_status`, `additional`, `display_on_dashboard`, `display_on_third_party`, `site_config_parent_id`, `site_id`, `deleted_status`, `root_user_only`, `created_at`) VALUES (NULL, 'Rich Snippets', 'FRONT_RICH_SNIPPETS', 'Rich Snippets', 'textarea', '100', '100', 'Please enter your rich snippets code ', 'form-control', 'Y', '1', NULL, 'Y', NULL, 'Y', 'Y', '1', '0', 'N', 'N', '2019-04-12 05:30:00');
+ALTER TABLE `timecard` ADD `is_weekend` ENUM('Y','N') NOT NULL DEFAULT 'N' AFTER `hours`, ADD `is_publicholiday` ENUM('Y','N') NOT NULL DEFAULT 'N' AFTER `is_weekend`;
+ALTER TABLE `timecard` ADD `adjustment_day` ENUM('Y','N') NOT NULL DEFAULT 'Y' AFTER `is_publicholiday`, ADD `adjustment_day_notes` TEXT NULL DEFAULT NULL AFTER `adjustment_day`;
+
+
+2020/01/08
+---------------------------------
+CREATE TABLE IF NOT EXISTS `media` (
+  `media_id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `attachment` varchar(255) DEFAULT NULL,
+  `type` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT 'default',
+  `media_extension` varchar(255) DEFAULT NULL,
+  `display_order` int(11) DEFAULT '0',
+  `display_status` enum('Y','N') NOT NULL DEFAULT 'Y',
+  `deleted_status` enum('Y','N') NOT NULL DEFAULT 'N',
+  `deleted_by` int(11) NOT NULL DEFAULT '0',
+  `deleted_by_name` varchar(255) DEFAULT NULL,
+  `deleted_time` datetime DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`media_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `snippets_code`, `meta_title_length`, `meta_description_length`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'All Media', 'allmedia', '0', 'pages', NULL, '<p>All Media</p>', NULL, 'N', NULL, NULL, NULL, '1', '', '', '', NULL, 'allmedia', 'index', 'INDEX,FOLLOW', '2019-03-07', NULL, 'All Media', 'All Media Meta Description', 'N', '269', 'Y', NULL, '1', 'Y', 'N', '0', NULL, NULL, '2019-03-07 13:55:41', '2019-03-07 13:55:41');
+
+CREATE TABLE IF NOT EXISTS `timecard_ot` ( `ot_id` int(11) NOT NULL AUTO_INCREMENT, `user_id` int(11) NOT NULL DEFAULT '0', `name` varchar(255) DEFAULT NULL, `month` int(11) NOT NULL DEFAULT '0', `year` int(11) NOT NULL DEFAULT '0', `total_hours` decimal(10,2) NOT NULL DEFAULT '0.00', `ot_date` datetime DEFAULT NULL, `ot_day` varchar(20) DEFAULT NULL, `ot_type` varchar(20) DEFAULT NULL, `display_order` int(11) NOT NULL DEFAULT '0', `display_status` enum('Y','N') NOT NULL DEFAULT 'Y', `deleted_status` enum('Y','N') NOT NULL DEFAULT 'N', `deleted_by` int(11) NOT NULL DEFAULT '0', `deleted_by_name` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL, `deleted_time` datetime DEFAULT NULL, `created_at` datetime DEFAULT NULL, `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, PRIMARY KEY (`ot_id`) ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4
+
+
+
+2020/01/11
+================================================
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `snippets_code`, `meta_title_length`, `meta_description_length`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES
+(NULL, 'Dispatch Items', 'alldispatches', 0, 'inventories', NULL, '<p>Cloudswift Solutions is a diversified IT services company provides its services to the entire spectrum of businesses worldwide. Our competencies lie in setting dedicated offshore software development teams for Custom Software Development, Web Application Development, Web Site Development and Design, Business Process Outsourcing, IT Staff Augmentation, Digital Marketing and Search Engine Optimization, E-commerce Development, Application Maintenance and Mobile Application Development. We make development model work for you by using our proven Software Development Methodology. We offer comprehensive solutions to website design. By bringing together experienced and skilled professionals in the Web design, Web programming, and Web marketing fields. The development team are experienced in various programming technologies. For those who just needs an additional programmer or two to help out, whether for a short term contract or a long-term basis, we also have solution for that. Dedicated Programmers to work for your company for as little as a month or as long as a year, you choose the terms, we provide the experience.</p>', NULL, 'N', NULL, NULL, NULL, 1, '25_i_1_1548853702_default_image2.png', NULL, NULL, NULL, 'allinventories', 'dispatchimtems', 'INDEX,FOLLOW', '2019-03-19', NULL, 'Native App development | Website development Agency Vadodara, India | JayKrishna', 'Web development company vadodara,web design company vadodara ,best web development company in vadodara,web application development company,website making company india', 'N', 281, 'Y', NULL, 2, 'Y', 'N', 0, NULL, NULL, '2019-03-19 01:18:46', '2019-03-19 01:18:46'),
+(NULL, 'Inventory Stock', 'inventorystock', 0, 'inventories', NULL, '<p>Cloudswift Solutions is a diversified IT services company provides its services to the entire spectrum of businesses worldwide. Our competencies lie in setting dedicated offshore software development teams for Custom Software Development, Web Application Development, Web Site Development and Design, Business Process Outsourcing, IT Staff Augmentation, Digital Marketing and Search Engine Optimization, E-commerce Development, Application Maintenance and Mobile Application Development. We make development model work for you by using our proven Software Development Methodology. We offer comprehensive solutions to website design. By bringing together experienced and skilled professionals in the Web design, Web programming, and Web marketing fields. The development team are experienced in various programming technologies. For those who just needs an additional programmer or two to help out, whether for a short term contract or a long-term basis, we also have solution for that. Dedicated Programmers to work for your company for as little as a month or as long as a year, you choose the terms, we provide the experience.</p>', NULL, 'N', NULL, NULL, NULL, 1, '25_i_1_1548853702_default_image2.png', NULL, NULL, NULL, 'allinventories', 'inventorystock', 'INDEX,FOLLOW', '2019-03-19', NULL, 'Native App development | Website development Agency Vadodara, India | JayKrishna', 'Web development company vadodara,web design company vadodara ,best web development company in vadodara,web application development company,website making company india', 'N', 281, 'Y', NULL, 2, 'Y', 'N', 0, NULL, NULL, '2019-03-19 01:18:46', '2019-03-19 01:18:46'),
+(NULL, 'All Inventories', 'allinventories', 0, 'inventories', NULL, '<p>Cloudswift Solutions is a diversified IT services company provides its services to the entire spectrum of businesses worldwide. Our competencies lie in setting dedicated offshore software development teams for Custom Software Development, Web Application Development, Web Site Development and Design, Business Process Outsourcing, IT Staff Augmentation, Digital Marketing and Search Engine Optimization, E-commerce Development, Application Maintenance and Mobile Application Development. We make development model work for you by using our proven Software Development Methodology. We offer comprehensive solutions to website design. By bringing together experienced and skilled professionals in the Web design, Web programming, and Web marketing fields. The development team are experienced in various programming technologies. For those who just needs an additional programmer or two to help out, whether for a short term contract or a long-term basis, we also have solution for that. Dedicated Programmers to work for your company for as little as a month or as long as a year, you choose the terms, we provide the experience.</p>', NULL, 'N', NULL, NULL, NULL, 1, '25_i_1_1548853702_default_image2.png', NULL, NULL, NULL, 'allinventories', 'index', 'INDEX,FOLLOW', '2019-03-19', NULL, 'Native App development | Website development Agency Vadodara, India | JayKrishna', 'Web development company vadodara,web design company vadodara ,best web development company in vadodara,web application development company,website making company india', 'N', 281, 'Y', NULL, 2, 'Y', 'N', 0, NULL, NULL, '2019-03-19 01:18:46', '2019-03-19 01:18:46');
+
+
+
+2020/01/19
+======================================================
+CREATE TABLE `dispatched` (
+  `dispatched_id` int(11) NOT NULL,
+  `inventory_id` int(11) NOT NULL,
+  `item_size` int(11) NOT NULL,
+  `total_items` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `is_partial` enum('Y','N') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'N',
+  `item_unit` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `taken_by` int(11) NOT NULL DEFAULT '0',
+  `taken_by_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_by` int(11) NOT NULL DEFAULT '0',
+  `created_by_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `display_status` enum('Y','N') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'Y',
+  `deleted_status` enum('Y','N') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'N',
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `inventories` (
+  `inventory_id` int(11) NOT NULL,
+  `item_title` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `items_alias` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `item_size` int(11) NOT NULL DEFAULT '0' COMMENT 'Size = How much litre,meter,number',
+  `total_item_size` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `item_unit` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `total_item` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `overall_item_total` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT 'When same item arrive multiple times',
+  `item_price` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `item_price_with_quantity` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `is_partial` enum('Y','N') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'N',
+  `item_description` text CHARACTER SET utf8mb4,
+  `attachment` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `bill_picture` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `po_number` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `gst_number` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `is_consumable` enum('Y','N') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'N',
+  `display_status` enum('Y','N') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'Y',
+  `created_by` int(11) NOT NULL DEFAULT '0',
+  `created_by_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `deleted_status` enum('Y','N') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'N',
+  `deleted_by_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `deleted_time` datetime DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `inventories_activities` (
+  `inventories_activities_id` int(11) NOT NULL,
+  `inventory_id` int(11) NOT NULL DEFAULT '0',
+  `item_title` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `operation` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `item_size` int(11) NOT NULL DEFAULT '0' COMMENT 'Size = How much litre,meter,number',
+  `total_item_size` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `item_price` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `total_items` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT 'Total Items added or substract',
+  `total_items_before_entry` int(11) NOT NULL DEFAULT '0',
+  `total_price_with_qty` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `is_partial` enum('Y','N') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'N',
+  `item_unit` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `attachment` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `po_number` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `bill_picture` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `description` text COLLATE utf8mb4_unicode_ci,
+  `taken_by` int(11) NOT NULL DEFAULT '0',
+  `taken_by_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Taken By / Return By',
+  `created_by` int(11) DEFAULT '0',
+  `created_by_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `deleted_by` int(11) NOT NULL DEFAULT '0',
+  `deleted_by_name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `deleted_time` datetime DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+ALTER TABLE `dispatched` ADD PRIMARY KEY (`dispatched_id`);
+ALTER TABLE `inventories` ADD PRIMARY KEY (`inventory_id`);
+ALTER TABLE `inventories_activities` ADD PRIMARY KEY (`inventories_activities_id`);
+ALTER TABLE `dispatched` MODIFY `dispatched_id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `inventories` MODIFY `inventory_id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `inventories_activities` MODIFY `inventories_activities_id` int(11) NOT NULL AUTO_INCREMENT;
+
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `snippets_code`, `meta_title_length`, `meta_description_length`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Inventories Activities', 'inventoryactivities', '0', 'inventories', NULL, '<p>Inventories activity called.....</p>', NULL, 'N', NULL, NULL, NULL, '1', '25_i_1_1548853702_default_image2.png', NULL, NULL, NULL, 'allinventories', 'inventoryactivities', 'INDEX,FOLLOW', '2019-03-19', NULL, 'Native App development | Website development Agency Vadodara, India | JayKrishna', 'Web development company vadodara,web design company vadodara ,best web development company in vadodara,web application development company,website making company india', 'N', '281', 'Y', NULL, '2', 'Y', 'N', '0', NULL, NULL, '2019-03-19 06:48:46', '2019-03-19 06:48:46');
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `snippets_code`, `meta_title_length`, `meta_description_length`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Return Items', 'allreturnitems', '0', 'inventories', NULL, '<p>Cloudswift Solutions is a diversified IT services company provides its services to the entire spectrum of businesses worldwide. Our competencies lie in setting dedicated offshore software development teams for Custom Software Development, Web Application Development, Web Site Development and Design, Business Process Outsourcing, IT Staff Augmentation, Digital Marketing and Search Engine Optimization, E-commerce Development, Application Maintenance and Mobile Application Development. We make development model work for you by using our proven Software Development Methodology. We offer comprehensive solutions to website design. By bringing together experienced and skilled professionals in the Web design, Web programming, and Web marketing fields. The development team are experienced in various programming technologies. For those who just needs an additional programmer or two to help out, whether for a short term contract or a long-term basis, we also have solution for that. Dedicated Programmers to work for your company for as little as a month or as long as a year, you choose the terms, we provide the experience.</p>', NULL, 'N', NULL, NULL, NULL, '1', '25_i_1_1548853702_default_image2.png', NULL, NULL, NULL, 'allinventories', 'allreturnitems', 'INDEX,FOLLOW', '2019-03-19', NULL, 'Native App development | Website development Agency Vadodara, India | JayKrishna', 'Web development company vadodara,web design company vadodara ,best web development company in vadodara,web application development company,website making company india', 'N', '281', 'Y', NULL, '2', 'Y', 'N', '0', NULL, NULL, '2019-03-19 06:48:46', '2019-03-19 06:48:46');
+
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `snippets_code`, `meta_title_length`, `meta_description_length`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'Inventory Report', 'inventoryreports', '0', 'inventories', NULL, '<p>Cloudswift Solutions.</p>', NULL, 'N', NULL, NULL, NULL, '1', '25_i_1_1548853702_default_image2.png', NULL, NULL, NULL, 'allinventories', 'inventoryreports', 'INDEX,FOLLOW', '2019-03-19', NULL, 'Native App development | Website development Agency Vadodara, India | JayKrishna', 'Web development company vadodara,web design company vadodara ,best web development company in vadodara,web application development company,website making company india', 'N', '281', 'Y', NULL, '2', 'Y', 'N', '0', NULL, NULL, '2019-03-19 06:48:46', '2019-03-19 06:48:46');
+
+
+
+
+
+
+
+
+
+INSERT INTO `items` (`item_id`, `item_title`, `item_alias`, `item_parent`, `item_type`, `item_category`, `item_description`, `item_shortdescription`, `guest_item`, `snippets_code`, `meta_title_length`, `meta_description_length`, `user_id`, `file1`, `file2`, `file3`, `external_url`, `controller`, `action`, `robots`, `published_at`, `published_end_at`, `meta_title`, `meta_description`, `html_sitemap`, `html_sitemap_order`, `admin_module`, `custom_view`, `display_order`, `display_status`, `deleted_status`, `deleted_by`, `deleted_by_name`, `deleted_time`, `created_at`, `updated_at`) VALUES (NULL, 'All Products', 'allproducts', '0', 'products', NULL, '<p>All Products</p>', NULL, 'N', NULL, NULL, NULL, '1', '25_i_1_1548853702_default_image2.png', NULL, NULL, NULL, 'allproducts', 'index', 'NOINDEX,NOFOLLOW', '2019-03-19', NULL, 'Products', 'Products', 'N', '281', 'Y', NULL, '2', 'Y', 'N', '0', NULL, NULL, '2019-03-19 06:48:46', '2019-03-19 06:48:46');
